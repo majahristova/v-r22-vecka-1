@@ -1,0 +1,46 @@
+* {
+    text-decoration: none;
+    color: white;
+}
+.photo {
+background-image: url("bakround.jpg")  ;
+background-position: center;
+background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    width: 40%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid;
+  padding: 5px;
+  box-shadow: 5px 10px #ffffff;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+.content {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: white;
+}
+.content h1 {
+    font-size: 80px;
+    margin-top: 80px;
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 20px;
+}
